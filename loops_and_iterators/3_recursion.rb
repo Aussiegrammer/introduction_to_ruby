@@ -18,3 +18,14 @@ end
 
 puts "Please enter a number above or below 0: "
 count_to_0(gets.to_i)
+
+# Proposed solution, note the use of count_to_zero(paramater-1), simpler.
+=begin
+def count_to_zero(number)
+  if number <= 0
+    puts number
+  else
+    puts number
+    count_to_zero(number-1)
+  end
+end
