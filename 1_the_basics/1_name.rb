@@ -1,4 +1,4 @@
-first_name = "Christian"
-last_name = "Fisk"
+first_name = "Redacted"
+last_name = "Redacted"
 
 puts "#{first_name} #{last_name}"
