@@ -1,4 +1,4 @@
-names = ["Christian", "James", "Fisk"]
+names = ["John", "Jack", "Jill"]
 
 names.each { |name| puts name + '.'}
 
